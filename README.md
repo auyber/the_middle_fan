@@ -8,3 +8,7 @@
  <br>
  <img src="/imagens/ops.gif">
 </div>
+<div align="center">
+ <br>
+ AINDA ESTÁ EM DESENVOLVIMENTO
+</div>
