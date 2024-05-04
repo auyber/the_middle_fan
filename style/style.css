@@ -1,0 +1,183 @@
+@charset "UTF-08";
+
+@font-face {
+    font-family: 'ringm';
+    src: url(../fontes/ringbearer/RINGM___.TTF);
+}
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'ringm', Geneva, Tahoma, sans-serif;
+    --cor1: #5191B7;
+    --cor2: #166DB0;
+    --cor3: #8FABA6;
+    --cor4: #cbddeea4;
+    --cor5: #ABC4E4;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1em;
+    font-family: var(--fonte1);
+}
+
+body {
+    background-color: var(--cor4);
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+body#inicio {
+    background-image: url(../imagens/o\ condado.jpg); /* Adiciona a imagem de fundo */
+    background-size: cover; /* Garante que a imagem de fundo cubra toda a tela */
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5rem;
+}
+
+header {
+    background-color: tomato;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    background-color: transparent;
+    text-align: center;
+    padding-top: 13px;
+    padding-bottom: 1px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    margin: 0;
+}
+
+a {
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition-duration: .5s;
+    font-family: 'ringm';
+}
+
+a:hover {
+    background-color: var(--cor1);
+}
+
+ul {
+    list-style: none;
+}
+
+nav {
+    max-width: 1120px;
+    margin: auto;
+    padding: 1.5rem 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main {
+    min-width: 300px;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0px;
+}
+
+section {
+    background-color: tomato;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    background-color: transparent;
+    padding-top: 01vh;
+    padding-bottom: 01vh;
+    line-height: 1.5em;
+    padding-left: 1px;
+    padding-right: 1px;
+    font-size: 1.4em;
+    font-weight: 600;
+    border-radius: 20px;
+    margin: 50px;
+    border: solid 2px #ABC4E4;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'ringm';
+    font-size: 2em;
+    color: #166DB0;
+}
+
+h1.home {
+    color: black;
+    font-size: 1.5em;
+}
+
+h2 {
+    color: #5191B7;
+    font-size: 1.5em;
+    margin: 10px 10px 10px 0;
+}
+
+p.principal {
+    text-align: justify;
+    padding: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+main.leg > p {
+    line-height: 1.8em;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+}
+
+a.lore:hover {
+    color: #166DB0;
+    background-color: transparent;
+    font-size: 1.2em;
+}
+
+footer.principal {
+    background-color: #5191B7; /* Cor de fundo do footer */
+    padding: 10px; /* Espaçamento interno do footer */
+    color: white; /* Cor do texto no footer */
+    text-align: center; /* Alinhamento do texto no footer */
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+footer {
+    background-color: var(--cor1);
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+a.git:hover {
+    font-size: 1.5em;
+}
+
+/* Media query para tornar o menu vertical em dispositivos móveis */
+@media (max-width: 768px) {
+    .menu {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    nav {
+        padding: 1.5rem 2rem;
+    }
+}
