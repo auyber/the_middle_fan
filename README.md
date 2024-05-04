@@ -1,2 +1,2 @@
 # the_midlle_fan
- site criado para curiosidades da Terra Média e mini jogos.
+ site criado para contar a história da criação do grandioso mundo criado por Tolkien, curiosidades e quiz.
