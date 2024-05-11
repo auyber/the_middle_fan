@@ -42,18 +42,18 @@ body#inicio {
 }
 
 header {
-    background-color: tomato;
+    /*background-color: tomato;
     backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);*/
     background-color: transparent;
-    text-align: center;
-    padding-top: 13px;
-    padding-bottom: 1px;
+    /*text-align: center;
+    margin: 10px;
+    border-radius: 20px;*/
 }
 
 .logo {
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
     margin: 0;
 }
 
@@ -76,13 +76,21 @@ ul {
 }
 
 nav {
-    max-width: 1120px;
+    max-width: 800px;
     margin: auto;
-    padding: 1.5rem 10rem;
+    margin-top: 05px;
+    margin-bottom: 05px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    background-color: tomato;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    background-color: transparent;
+
+    
+    
 }
 
 main {
@@ -105,9 +113,11 @@ section {
     font-size: 1.4em;
     font-weight: 600;
     border-radius: 20px;
-    margin: 50px;
+    margin: 50px auto; /* Define a margem superior e inferior para 50px e centraliza horizontalmente */
     border: solid 2px #ABC4E4;
+    margin-left: auto; /* Alinha a seção totalmente à direita */
 }
+
 
 h1 {
     text-align: center;
