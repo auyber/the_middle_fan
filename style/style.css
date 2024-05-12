@@ -145,7 +145,7 @@ p.principal {
 }
 
 main.leg > p {
-    line-height: 1.8em;
+    line-height: 1.8rem;
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.3em;
@@ -190,4 +190,62 @@ a.git:hover {
     nav {
         padding: 1.5rem 2rem;
     }
+}
+
+img.eu {
+    width: 450px;
+    height: 500px;
+    border-radius: 40px 0 40px 0;
+    border: 1px solid black;
+    box-shadow: 05px 05px 10px black;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    
+}
+
+.container > div {
+    flex: 1;
+    padding: 10px;
+}
+
+
+
+.eu {
+    max-width: 100%;
+    height: auto;
+}
+
+p.sobremim {
+    line-height: 1.8rem;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh; /* Adicionei isso para centralizar verticalmente */
+    
+}
+
+.legendarium {
+    text-align: center;
+    padding: 10px; /* Adiciona espaçamento interno */
+}
+
+.legendarium img {
+    max-width: 50%;
+    height: auto;
+    
+}
+
+.leg:hover {
+    background-color: transparent;
+
+    
 }
